@@ -4,7 +4,7 @@ import { ShopItem } from "../types";
 import ProductList from "./ProductList";
 
 const Shop = () => {
-	const result = useFetch("https://fakestoreapi.com/products");
+	const result = useFetch("https://fakestoreapi.com/prodcts");
 	const [products, setProducts] = useState<ShopItem[]>([]);
 	const [cart, setCart] = useState<ShopItem[]>([]);
 
